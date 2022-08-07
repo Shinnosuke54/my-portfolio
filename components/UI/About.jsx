@@ -18,7 +18,7 @@ export default function About(){
       <Container>
         <Row>
           <Col lg="6" className={`${classes.about__content}`}>
-            <SectionSubtitle subtitle="About me" />
+            <SectionSubtitle subtitle="<About />" />
             <h3 className="mt-4">I&apos;m here</h3>
             <h3 className="mb-4">to help your next project</h3>
             <p>
@@ -31,14 +31,14 @@ export default function About(){
 
             <div className=" d-flex align-items-center gap-5">
               <div>
-                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal text-black">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
                   Problem Solving
                 </h6>
 
-                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal text-black">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
@@ -47,14 +47,14 @@ export default function About(){
               </div>
 
               <div>
-                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal text-black">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
                   Creative Idea
                 </h6>
 
-                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal text-black">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>

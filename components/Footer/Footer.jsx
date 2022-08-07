@@ -7,23 +7,23 @@ import Link from "next/link";
 const NAV__LINK = [
   {
     path: "/",
-    display: "Home",
+    display: "<Home />",
   },
   {
     path: "#about",
-    display: "About",
+    display: "<About />",
   },
   {
     path: "#services",
-    display: "Services",
+    display: "<Services />",
   },
   {
     path: "#portfolio",
-    display: "Portfolio",
+    display: "<Portfolio />",
   },
   {
     path: "#contact",
-    display: "Contact",
+    display: "<Contact />",
   },
 ];
 

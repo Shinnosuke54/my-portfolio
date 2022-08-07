@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
 import SectionSubtitle from "./SectionSubtitle";
-import network from "../../public/images/Connected world.png";
+import network from "../../public/images/n0736.png";
 import Slider from "react-slick";
 import classes from "../../styles/testimonial.module.css";
 
@@ -10,8 +10,8 @@ export default function Testimonial(){
   const settings = {
     dots: false,
     autoplay: true,
-    speed: 1000,
-    autoplaySpeed: 2000,
+    speed: 700,
+    autoplaySpeed: 3500,
     infinite: true,
     swipeToSlide: true,
     slidesToShow: 1,
@@ -19,15 +19,15 @@ export default function Testimonial(){
   };
   return (
     <section>
-      <Container>
+      <Container className={`${classes.testimonial__block}`}>
         <Row>
           <Col lg="6" md="6" className={`${classes.testimonial__img}`}>
-            <Image alt="network-img" src={network} width="400" height="400" />
+            <Image alt="network-img" src={network} width="400" height="450" />
           </Col>
 
           <Col lg="6" md="6">
-            <SectionSubtitle subtitle="Testimonials" />
-            <h4 className="mt-4 mb-5">What my client says</h4>
+            <SectionSubtitle subtitle="<Skills />" />
+            <h4 className="mt-4 mb-5">Let me tell you about my skills</h4>
 
             <Slider {...settings}>
               <div className={`${classes.testimonial__item}`}>

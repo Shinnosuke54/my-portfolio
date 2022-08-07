@@ -11,7 +11,7 @@ export default function Contact(){
       <Container>
         <Row>
           <Col lg="6" md="6">
-            <SectionSubtitle subtitle="Contact me" />
+            <SectionSubtitle subtitle="<Contact />" />
             <h3 className="mt-4 mb-4">Contact with me</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
@@ -42,13 +42,7 @@ export default function Contact(){
 
             <div className={`${classes.social__links}`}>
               <Link href="#">
-                <i className="ri-youtube-line"></i>
-              </Link>
-              <Link href="#">
                 <i className="ri-github-line"></i>
-              </Link>
-              <Link href="#">
-                <i className="ri-facebook-line"></i>
               </Link>
               <Link href="#">
                 <i className="ri-linkedin-line"></i>

@@ -35,7 +35,7 @@ export default function Portfolio(){
       <Container>
         <Row>
           <Col lg="6" md="6" className="mb-5">
-            <SectionSubtitle subtitle=" My portfolio" />
+            <SectionSubtitle subtitle=" <Portfolio />" />
             <h4 className="mt-4">Some of my distinguished works</h4>
           </Col>
 
@@ -44,7 +44,7 @@ export default function Portfolio(){
               <button
                 className={` ${
                   filter === "Mobile App" ? active : ""
-                } secondary__btn text-white`}
+                } secondary__btn text-#393e46`}
                 onClick={() => setFilter("Mobile App")}
               >
                 Mobile App
@@ -52,7 +52,7 @@ export default function Portfolio(){
               <button
                 className={`${
                   filter === "Web Design" ? active : ""
-                } secondary__btn text-white`}
+                } secondary__btn text-#393e46`}
                 onClick={() => setFilter("Web Design")}
               >
                 Web Design

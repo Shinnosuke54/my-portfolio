@@ -25,7 +25,7 @@ export default function Services(){
           </Col>
 
           <Col lg="6" md="6" className={`${classes.service__title}`}>
-            <SectionSubtitle subtitle="What I do" />
+            <SectionSubtitle subtitle="<Services />" />
             <h3 className="mb-0 mt-4">Better Design,</h3>
             <h3 className="mb-4">Better Experience</h3>
             <p>

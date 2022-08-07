@@ -7,23 +7,23 @@ import Link from "next/link";
 const NAV__LINK = [
   {
     path: "/",
-    display: "Home",
+    display: "<Home />",
   },
   {
     path: "#about",
-    display: "About",
+    display: "<About />",
   },
   {
     path: "#services",
-    display: "Services",
+    display: "<Services />",
   },
   {
     path: "#portfolio",
-    display: "Portfolio",
+    display: "<Portfolio />",
   },
   {
     path: "#contact",
-    display: "Contact",
+    display: "<Contact />",
   },
 ];
 
@@ -77,12 +77,12 @@ export default function Header(){
                 </Link>
               ))}
 
-              <div className={`${classes.nav__right}`}>
+              {/* <div className={`${classes.nav__right}`}>
                 <p className=" d-flex align-items-center gap-2 mb-0">
                   {" "}
                   <i className="ri-phone-line"></i> 09085163813{" "}
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
 

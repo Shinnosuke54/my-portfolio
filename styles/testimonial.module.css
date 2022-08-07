@@ -1,3 +1,7 @@
+.testimonial__block{
+    background: #393e46;
+}
+
 .testimonial__item {
     padding: 0px 20px;
   }
@@ -13,7 +17,7 @@
   }
   
   .testimonial__client h6:last-child {
-    color: #01d293;
+    color: #393e46;
   }
   
   @media only screen and (max-width: 768px) {
