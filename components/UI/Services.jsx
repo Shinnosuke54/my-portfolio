@@ -7,7 +7,8 @@ import ServicesItem from "./ServicesItem";
 export default function Services(){
   return (
     <section id="services">
-      <Container>
+      <Container className={`${classes.black__container}`}>
+      {/* <Container className={`${classes.black__container}`}> */}
         <Row>
           <Col lg="6" md="6">
             <div className={`${classes.services__container}`}>

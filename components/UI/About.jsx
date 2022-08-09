@@ -7,7 +7,7 @@ import Image from "next/image";
 import img01 from "../../public/images/img-01.jpg";
 import img02 from "../../public/images/img-02.jpg";
 import img03 from "../../public/images/img-03.jpg";
-import img04 from "../../public/images/hero.jpg";
+import img04 from "../../public/images/img-4.jpg";
 
 import classes from "../../styles/about.module.css";
 import { defaultConfig } from "next/dist/server/config-shared";
@@ -64,13 +64,17 @@ export default function About(){
             </div>
 
             <div className="mt-5">
+            <Link href="#portfolio">
               <button className="primary__btn">
-                <Link href="#portfolio">My Portfolio</Link>
+                My Portfolio
               </button>
+              </Link>
 
+              <Link href="#">
               <button className="secondary__btn">
-                <Link href="#">Download CV</Link>
+                Download CV
               </button>
+              </Link>
             </div>
           </Col>
 
@@ -88,7 +92,7 @@ export default function About(){
                 <div
                   className={`${classes.about__img} ${classes.about__img__box}`}
                 >
-                  <Image src={img02} alt="about-img" />
+                  <Image src={img03} alt="about-img" />
                 </div>
               </div>
 
@@ -96,13 +100,13 @@ export default function About(){
                 <div
                   className={`${classes.about__img} ${classes.about__img__box}`}
                 >
-                  <Image src={img03} alt="about-img" />
+                  <Image src={img04} alt="about-img" />
                 </div>
 
                 <div
                   className={`${classes.about__img} ${classes.about__img__box}`}
                 >
-                  <Image src={img04} alt="about-img" />
+                  <Image src={img02} alt="about-img" />
                 </div>
               </div>
             </div>

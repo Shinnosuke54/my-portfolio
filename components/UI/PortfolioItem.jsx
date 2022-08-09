@@ -21,9 +21,11 @@ export default function PortfolioItem(props){
       </div>
 
       <div className={`${classes.portfolio__live} bg-transparent`}>
+      <Link href={liveUrl}>
         <button className="primary__btn">
-          <Link href={liveUrl}>Launch</Link>
+          Launch
         </button>
+        </Link>
       </div>
     </div>
   );

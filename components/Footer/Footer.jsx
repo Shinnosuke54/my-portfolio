@@ -48,7 +48,7 @@ export default function Footer(){
 
           <Col lg="6" className={`${classes.footer__top}`}>
             <div className={`${classes.footer__creator}`}>
-              <h6>Created by Shinnosuke Ino</h6>
+              <h6>Created by Shinnosuke <span className={`${classes.orange}`}>Ino</span></h6>
             </div>
           </Col>
 

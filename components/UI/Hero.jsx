@@ -23,9 +23,11 @@ export default function Hero(){
                 quos!
               </p>
               <div className="mt-5">
+              <Link href="#contact">
                 <button className="primary__btn">
-                  <Link href="#">Hire me</Link>
+                  Hire me
                 </button>
+                </Link>
 
                 <button className="secondary__btn">
                   <Link href="#">Download CV</Link>
