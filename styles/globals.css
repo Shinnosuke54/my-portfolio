@@ -84,7 +84,8 @@ footer {
 }
 
 .secondary__btn a {
-  color: #fd7013 !important;
+  color: #393e46 !important;
+  text-decoration: none
 }
 
 .primary__btn:hover,

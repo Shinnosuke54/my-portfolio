@@ -16,11 +16,10 @@ export default function Hero(){
             <div className={`${classes.hero__content}`}>
               <SectionSubtitle subtitle="<Hero />" />
               <h2 className="mt-3 mb-3">I&apos;m Shinnosuke Ino</h2>
-              <h5 className="mb-4">Frontend Developer & AI Engineer</h5>
+              <h5 className="mb-4">Frontend Developer & ML Engineer</h5>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Impedit rem sint ipsa cumque. Atque rem vel iusto impedit omnis
-                quos!
+                I'm a student of Keio University, Class of 2024.
+                My dream is to become a Frontend or a ML engineer.
               </p>
               <div className="mt-5">
               <Link href="#contact">
@@ -28,18 +27,19 @@ export default function Hero(){
                   Hire me
                 </button>
                 </Link>
-
+                <Link href="#">
                 <button className="secondary__btn">
-                  <Link href="#">Download CV</Link>
+                  Download CV
                 </button>
+                </Link>
               </div>
             </div>
           </Col>
 
           {/* ========== hero img ============= */}
           <Col lg="6" md="6">
-            <div className={`${classes.hero__img} text-end`}>
-              <Image alt="hero-image" src={heroImg} width="400" height="400" />
+            <div className={`${classes.hero__img} text-end gap-4`}>
+              <Image alt="hero-image" src={heroImg} width="500" height="400" />
             </div>
           </Col>
         </Row>

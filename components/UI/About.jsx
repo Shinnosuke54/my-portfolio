@@ -8,6 +8,7 @@ import img01 from "../../public/images/img-01.jpg";
 import img02 from "../../public/images/img-02.jpg";
 import img03 from "../../public/images/img-03.jpg";
 import img04 from "../../public/images/img-4.jpg";
+import img05 from "../../public/images/Mikeneko_Lofi_Wolf.jpg"
 
 import classes from "../../styles/about.module.css";
 import { defaultConfig } from "next/dist/server/config-shared";
@@ -19,14 +20,9 @@ export default function About(){
         <Row>
           <Col lg="6" className={`${classes.about__content}`}>
             <SectionSubtitle subtitle="<About />" />
-            <h3 className="mt-4">I&apos;m here</h3>
-            <h3 className="mb-4">to help your next project</h3>
+            <h3 className="mt-4">More About Myself</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              neque asperiores temporibus quo saepe odio, esse labore libero
-              obcaecati quidem explicabo blanditiis deleniti ex vitae ratione
-              ullam fugiat dicta eum sint officiis porro illum quia. Error quam
-              cum excepturi beatae.
+              I belong to the Keio Men's Lacrosse Team, and it's marketing team as well. As a part of the marketing team, I have been managing the instagram account, website, and making YouTube videos. I am extremely interested in Web 3.0 and I sell NFTs on OpenSea.
             </p>
 
             <div className=" d-flex align-items-center gap-5">
@@ -35,14 +31,14 @@ export default function About(){
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  Problem Solving
+                  Lacrosse
                 </h6>
 
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal text-black">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  Search A Lot
+                  Instagram Marketing
                 </h6>
               </div>
 
@@ -51,14 +47,14 @@ export default function About(){
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  Creative Idea
+                  NFT
                 </h6>
 
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal text-black">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  High Quality
+                  Photography
                 </h6>
               </div>
             </div>
@@ -84,9 +80,9 @@ export default function About(){
             >
               <div className=" d-flex flex-column mb-3">
                 <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
+                  className={`${classes.about__img} ${classes.about__img__box} ${classes.lacrosse__img}`}
                 >
-                  <Image src={img01} alt="about-img" />
+                  <Image src={img02} alt="about-img" />
                 </div>
 
                 <div
@@ -100,13 +96,13 @@ export default function About(){
                 <div
                   className={`${classes.about__img} ${classes.about__img__box}`}
                 >
-                  <Image src={img04} alt="about-img" />
+                  <Image src={img05} alt="about-img" />
                 </div>
 
                 <div
                   className={`${classes.about__img} ${classes.about__img__box}`}
                 >
-                  <Image src={img02} alt="about-img" />
+                  <Image src={img01} alt="about-img" />
                 </div>
               </div>
             </div>

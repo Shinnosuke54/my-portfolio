@@ -15,10 +15,15 @@
 }
 
 .about__img__box {
-  width: 200px !important;
+  /* width: 200px !important; */
   background: #eeeeee;
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+
+.lacrosse__img:hover{
+
+
 }
 
 @media only screen and (max-width: 992px) {

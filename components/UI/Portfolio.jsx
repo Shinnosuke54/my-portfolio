@@ -7,11 +7,11 @@ import PortfolioItem from "./PortfolioItem";
 import portfolioData from "../data/portfolio";
 
 export default function Portfolio(){
-  const [filter, setFilter] = useState("Mobile App");
+  const [filter, setFilter] = useState("Web App");
   const [data, setData] = useState();
 
   useEffect(() => {
-    if (filter === "Mobile App") {
+    if (filter === "Web App") {
       const filteredData = portfolioData.filter(
         (item) => item.category === filter
       );
@@ -19,7 +19,7 @@ export default function Portfolio(){
       setData(filteredData);
     }
 
-    if (filter === "Web Design") {
+    if (filter === "Machine Learning") {
       const filteredData = portfolioData.filter(
         (item) => item.category === filter
       );
@@ -43,19 +43,19 @@ export default function Portfolio(){
             <div className={`${classes.tab__btns} text-end`}>
               <button
                 className={` ${
-                  filter === "Mobile App" ? active : ""
+                  filter === "Web App" ? active : ""
                 } secondary__btn text-#393e46`}
-                onClick={() => setFilter("Mobile App")}
+                onClick={() => setFilter("Web App")}
               >
-                Mobile App
+                Web App
               </button>
               <button
                 className={`${
-                  filter === "Web Design" ? active : ""
+                  filter === "Machine Learning" ? active : ""
                 } secondary__btn text-#393e46`}
-                onClick={() => setFilter("Web Design")}
+                onClick={() => setFilter("Machine Learning")}
               >
-                Web Design
+                Machine Learning
               </button>
             </div>
           </Col>
