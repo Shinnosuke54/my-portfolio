@@ -66,9 +66,9 @@ export default function About(){
               </button>
               </Link>
 
-              <Link href="#">
+              <Link href="/CV">
               <button className="secondary__btn">
-                Download CV
+                Check CV
               </button>
               </Link>
             </div>

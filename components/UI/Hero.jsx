@@ -27,9 +27,9 @@ export default function Hero(){
                   Hire me
                 </button>
                 </Link>
-                <Link href="#">
+                <Link href="/CV">
                 <button className="secondary__btn">
-                  Download CV
+                  Check CV
                 </button>
                 </Link>
               </div>

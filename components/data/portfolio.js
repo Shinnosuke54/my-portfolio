@@ -14,7 +14,7 @@ const portfolio = [
       img: "/images/keiomlax.png",
       category: "Web App",
       keyword: ["Website", "Wordpress", "Elementor"],
-      liveUrl: "#",
+      liveUrl: "https://www.keiomenslacrosse.com/",
     },
   
     {
@@ -23,7 +23,7 @@ const portfolio = [
       img: "/images/bench.png",
       category: "Web App",
       keyword: ["Website", "HTML/CSS", "JavaScript"],
-      liveUrl: "#",
+      liveUrl: "https://web.sfc.keio.ac.jp/~t20075si/bench_press/main.html",
     },
   
     {
@@ -32,7 +32,7 @@ const portfolio = [
       img: "/images/sfc.png",
       category: "Web App",
       keyword: ["Website", "HTML/CSS", "JavaScript"],
-      liveUrl: "#",
+      liveUrl: "https://web.sfc.keio.ac.jp/~t20075si/SFCspirit/main.html",
     },
 
     {

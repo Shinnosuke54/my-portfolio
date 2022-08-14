@@ -14,9 +14,7 @@ export default function Contact(){
             <SectionSubtitle subtitle="<Contact />" />
             <h3 className="mt-4 mb-4">Contact with me</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              beatae ratione iusto cum. Doloremque suscipit eius provident error
-              labore est reprehenderit, exercitationem corrupti earum deleniti!
+              Feel free to ask me anything! More than welcome for a quick chat or a job offer 😃
             </p>
 
             <ul className={`${classes.contact__info__list}`}>
@@ -41,13 +39,13 @@ export default function Contact(){
             </ul>
 
             <div className={`${classes.social__links}`}>
-              <Link href="#">
+              <Link href="https://github.com/Shinnosuke54">
                 <i className="ri-github-line"></i>
               </Link>
-              <Link href="#">
+              <Link href="https://www.linkedin.com/in/shinnosuke-ino/">
                 <i className="ri-linkedin-line"></i>
               </Link>
-              <Link href="#">
+              <Link href="https://www.instagram.com/keiomlax/">
                 <i className="ri-instagram-line"></i>
               </Link>
             </div>
