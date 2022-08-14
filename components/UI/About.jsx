@@ -3,15 +3,12 @@ import { Container, Row, Col } from "reactstrap";
 import Link from "next/link";
 import SectionSubtitle from "./SectionSubtitle";
 import Image from "next/image";
-
 import img01 from "../../public/images/img-01.jpg";
 import img02 from "../../public/images/img-02.jpg";
 import img03 from "../../public/images/img-03.jpg";
-import img04 from "../../public/images/img-4.jpg";
 import img05 from "../../public/images/Mikeneko_Lofi_Wolf.jpg"
-
 import classes from "../../styles/about.module.css";
-import { defaultConfig } from "next/dist/server/config-shared";
+// import { defaultConfig } from "next/dist/server/config-shared";
 
 export default function About(){
   return (
@@ -22,7 +19,7 @@ export default function About(){
             <SectionSubtitle subtitle="<About />" />
             <h3 className="mt-4">More about myself</h3>
             <p>
-              I belong to the Keio Men's Lacrosse Team, and it's marketing team as well. As a part of the marketing team, I have been managing the <Link href="https://www.instagram.com/keiomlax/" className={`${classes.urls}`}>Instagram</Link>  account, <Link href="https://www.instagram.com/keiomlax/" className={`${classes.urls}`}>Website</Link>, and making <Link href="https://www.youtube.com/watch?v=sW4xhNTQa5g&t=14s" className={`${classes.urls}`}>YouTube</Link> videos. I am extremely interested in Web 3.0 and I sell NFTs on <Link href="https://opensea.io/collection/lofi-wolves" className={`${classes.urls}`}>Opensea</Link>.
+              I belong to the Keio Men&apos;s Lacrosse Team, and it&apos;s marketing team as well. As a part of the marketing team, I have been managing the <Link href="https://www.instagram.com/keiomlax/" className={`${classes.urls}`}>Instagram</Link>  account, <Link href="https://www.instagram.com/keiomlax/" className={`${classes.urls}`}>Website</Link>, and making <Link href="https://www.youtube.com/watch?v=sW4xhNTQa5g&t=14s" className={`${classes.urls}`}>YouTube</Link> videos. I am extremely interested in Web 3.0 and I sell NFTs on <Link href="https://opensea.io/collection/lofi-wolves" className={`${classes.urls}`}>Opensea</Link>.
             </p>
 
             <div className=" d-flex align-items-center gap-5">

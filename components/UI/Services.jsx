@@ -30,7 +30,7 @@ export default function Services(){
             <h3 className="mb-0 mt-4">Modern technology,</h3>
             <h3 className="mb-4">Modern UI</h3>
             <p>
-              I can provide high quality web applications, websites and ML services. I belong to Hagino, Hattori laboratory, a laboratory in which you can study how to make high quality web applications. I'm also studying for the TensorFlow Developer Certificate.
+              I can provide high quality web applications, websites and ML services. I belong to Hagino, Hattori laboratory, a laboratory in which you can study how to make high quality web applications. I&apos;m also studying for the TensorFlow Developer Certificate.
             </p>
           </Col>
         </Row>

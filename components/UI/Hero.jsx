@@ -18,7 +18,7 @@ export default function Hero(){
               <h2 className="mt-3 mb-3">I&apos;m Shinnosuke Ino</h2>
               <h5 className="mb-4">Frontend Developer & ML Engineer</h5>
               <p>
-                I'm a student of Keio University, Class of 2024.
+                I&apos;m a student of Keio University, Class of 2024.
                 My dream is to become a Frontend or a ML engineer.
               </p>
               <div className="mt-5">
