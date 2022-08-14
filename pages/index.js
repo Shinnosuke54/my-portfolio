@@ -3,8 +3,10 @@ import Hero from "../components/UI/Hero";
 import Services from "../components/UI/Services";
 import About from "../components/UI/About";
 import Portfolio from "../components/UI/Portfolio";
-import Testimonial from "../components/UI/Testimonial";
+import Skill from "../components/UI/Skill";
 import Contact from "../components/UI/Contact";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+
 
 export default function Home() {
   return (
@@ -13,7 +15,7 @@ export default function Home() {
       <Services />
       <About />
       <Portfolio />
-      <Testimonial />
+      <Skill />
       <Contact />
     </Fragment>
   );

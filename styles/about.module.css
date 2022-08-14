@@ -21,6 +21,13 @@
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
 }
 
+.about__content a {
+  text-decoration: underline #fd7013;
+  color: #393e46;
+  background: transparent !important;
+}
+
+
 .lacrosse__img:hover{
 
 

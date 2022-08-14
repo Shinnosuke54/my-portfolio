@@ -20,9 +20,9 @@ export default function About(){
         <Row>
           <Col lg="6" className={`${classes.about__content}`}>
             <SectionSubtitle subtitle="<About />" />
-            <h3 className="mt-4">More About Myself</h3>
+            <h3 className="mt-4">More about myself</h3>
             <p>
-              I belong to the Keio Men's Lacrosse Team, and it's marketing team as well. As a part of the marketing team, I have been managing the instagram account, website, and making YouTube videos. I am extremely interested in Web 3.0 and I sell NFTs on OpenSea.
+              I belong to the Keio Men's Lacrosse Team, and it's marketing team as well. As a part of the marketing team, I have been managing the <Link href="https://www.instagram.com/keiomlax/" className={`${classes.urls}`}>Instagram</Link>  account, <Link href="https://www.instagram.com/keiomlax/" className={`${classes.urls}`}>Website</Link>, and making <Link href="https://www.youtube.com/watch?v=sW4xhNTQa5g&t=14s" className={`${classes.urls}`}>YouTube</Link> videos. I am extremely interested in Web 3.0 and I sell NFTs on <Link href="https://opensea.io/collection/lofi-wolves" className={`${classes.urls}`}>Opensea</Link>.
             </p>
 
             <div className=" d-flex align-items-center gap-5">
