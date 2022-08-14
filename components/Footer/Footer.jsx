@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const NAV__LINK = [
   {
-    path: "/",
+    path: "#",
     display: "<Home />",
   },
   {
