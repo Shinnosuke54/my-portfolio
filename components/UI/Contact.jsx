@@ -12,7 +12,7 @@ export default function Contact(){
         <Row>
           <Col lg="6" md="6">
             <SectionSubtitle subtitle="<Contact />" />
-            <h3 className="mt-4 mb-4">Contact with me</h3>
+            <h3 className="mt-4 mb-4">Contact me!</h3>
             <p>
               Feel free to ask me anything! More than welcome for a quick chat or a job offer 😃
             </p>

@@ -47,7 +47,14 @@
   .hero__img {
     text-align: center !important;
     margin-top: 50px;
+    width: 350px !important;
+    height: 250px
   }
+
+  .hero__img img {
+    width: 300px;
+  }
+  
 }
 
 @media only screen and (max-width: 576px) {
