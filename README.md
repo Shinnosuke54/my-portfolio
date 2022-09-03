@@ -1,3 +1,14 @@
+## My Portfolio
+This is my portfolio. 
+![Test Image 1](public/images/portfolio.png)
+
+## What I used
+JavaScript, React, Next.js
+
+## URL 
+https://shinnosuke-ino-portfolio.vercel.app/
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
