@@ -16,10 +16,10 @@ export default function Hero(){
             <div className={`${classes.hero__content}`}>
               <SectionSubtitle subtitle="<Hero />" />
               <h2 className="mt-3 mb-3">I&apos;m Shinnosuke Ino</h2>
-              <h5 className="mb-4">Frontend Developer & ML Engineer</h5>
+              <h5 className="mb-4">Keio University Student</h5>
               <p>
-                I&apos;m a student of Keio University, Class of 2024.
-                My dream is to become a Frontend or a ML engineer.
+                I&apos;m a student of Keio University, Faculty of Environment and Information Studies, Class of 2024.
+               
               </p>
               <div className="mt-5">
               <Link href="#contact">

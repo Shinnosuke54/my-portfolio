@@ -37,11 +37,11 @@ const portfolio = [
 
     {
       id: "05",
-      title: "Creation of the SFC Spirit Assignment",
-      img: "/images/sfc.png",
+      title: "Dogecoin price prediction model",
+      img: "/images/dogecoin.png",
       category: "Machine Learning",
-      keyword: ["Website", "HTML/CSS", "JavaScript"],
-      liveUrl: "#",
+      keyword: ["Data scince", "Python", "TensorFlow"],
+      liveUrl: "https://www.kaggle.com/shinnosukeino/dogecoin-price-prediction-model",
     },
   
     

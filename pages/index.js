@@ -5,12 +5,16 @@ import About from "../components/UI/About";
 import Portfolio from "../components/UI/Portfolio";
 import Skill from "../components/UI/Skill";
 import Contact from "../components/UI/Contact";
+import Head from 'next/head';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 
 export default function Home() {
   return (
     <Fragment>
+      <Head>
+        <title>Shinnosuke Ino's Portfoliio</title>
+      </Head>
       <Hero />
       <Services />
       <About />

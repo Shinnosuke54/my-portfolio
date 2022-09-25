@@ -7,6 +7,7 @@ import img01 from "../../public/images/img-01.jpg";
 import img02 from "../../public/images/img-02.jpg";
 import img03 from "../../public/images/img-03.jpg";
 import img05 from "../../public/images/Mikeneko_Lofi_Wolf.jpg"
+import img06 from "../../public/images/certificate.png"
 import classes from "../../styles/about.module.css";
 // import { defaultConfig } from "next/dist/server/config-shared";
 
@@ -79,7 +80,7 @@ export default function About(){
                 <div
                   className={`${classes.about__img} ${classes.about__img__box} ${classes.lacrosse__img}`}
                 >
-                  <Image src={img02} alt="about-img" />
+                  <Image src={img06} alt="about-img" />
                 </div>
 
                 <div
@@ -94,6 +95,12 @@ export default function About(){
                   className={`${classes.about__img} ${classes.about__img__box}`}
                 >
                   <Image src={img05} alt="about-img" />
+                </div>
+
+                <div
+                  className={`${classes.about__img} ${classes.about__img__box}`}
+                >
+                  <Image src={img02} alt="about-img" />
                 </div>
 
                 <div
