@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <Fragment>
       <Head>
-        <title>Shinnosuke Ino's Portfoliio</title>
+        <title>Shinnosuke Ino&apos;s Portfoliio</title>
       </Head>
       <Hero />
       <Services />
