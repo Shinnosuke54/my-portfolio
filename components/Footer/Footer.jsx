@@ -48,7 +48,7 @@ export default function Footer(){
 
           <Col lg="6" className={`${classes.footer__top}`}>
             <div className={`${classes.footer__creator}`}>
-              <h6>Created by Shinnosuke <span className={`${classes.orange}`}>Ino</span></h6>
+              <h6>Created by Boar Consulting <span className={`${classes.orange}`}>Group</span></h6>
             </div>
           </Col>
 
@@ -56,7 +56,7 @@ export default function Footer(){
           <Col lg="12">
             <div className={`${classes.footer__copyright}`}>
               <p>
-                &copy; Copyright {year} - Developed by Shinnosuke Ino. All right
+                &copy; Copyright {year} - Developed by Boar Consulting Group. All right
                 reserved.{" "}
               </p>
             </div>

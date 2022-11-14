@@ -18,36 +18,24 @@ export default function About(){
         <Row>
           <Col lg="6" className={`${classes.about__content}`}>
             <SectionSubtitle subtitle="<About />" />
-            <h3 className="mt-4">More about myself</h3>
+            <h3 className="mt-4">More about us</h3>
             <p>
-              I belong to the Keio Men&apos;s Lacrosse Team, and it&apos;s marketing team as well. As a part of the marketing team, I have been managing the <Link href="https://www.instagram.com/keiomlax/" className={`${classes.urls}`}>Instagram</Link>  account, <Link href="https://www.keiomenslacrosse.com/" className={`${classes.urls}`}>Website</Link>, and making <Link href="https://www.youtube.com/watch?v=sW4xhNTQa5g&t=14s" className={`${classes.urls}`}>YouTube</Link> videos. I am extremely interested in Web 3.0 and I sell NFTs on <Link href="https://opensea.io/collection/lofi-wolves" className={`${classes.urls}`}>Opensea</Link>.
+              私たちは社内に業界トップクラスのNFTクリエイターユニットを有しています。
             </p>
 
             <div className=" d-flex align-items-center gap-5">
               <div>
-                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal text-black">
-                  <span className={`${classes.about__icon}`}>
-                    <i className="ri-checkbox-circle-line"></i>
-                  </span>
-                  Lacrosse
-                </h6>
-
-                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal text-black">
-                  <span className={`${classes.about__icon}`}>
-                    <i className="ri-checkbox-circle-line"></i>
-                  </span>
-                  Instagram Marketing
-                </h6>
-              </div>
-
-              <div>
-                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal text-black">
+              <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal text-black">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
                   NFT
                 </h6>
+                
+              </div>
 
+              <div>
+            
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal text-black">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
@@ -57,7 +45,7 @@ export default function About(){
               </div>
             </div>
 
-            <div className="mt-5">
+            {/* <div className="mt-5">
             <Link href="#portfolio">
               <button className="primary__btn">
                 My Portfolio
@@ -69,7 +57,7 @@ export default function About(){
                 Check CV
               </button>
               </Link>
-            </div>
+            </div> */}
           </Col>
 
           <Col lg="6">
@@ -77,11 +65,7 @@ export default function About(){
               className={`${classes.about__img__gallery} d-flex gap-4 justify-content-end`}
             >
               <div className=" d-flex flex-column mb-3">
-                <div
-                  className={`${classes.about__img} ${classes.about__img__box} ${classes.lacrosse__img}`}
-                >
-                  <Image src={img06} alt="about-img" />
-                </div>
+                
 
                 <div
                   className={`${classes.about__img} ${classes.about__img__box}`}
@@ -97,17 +81,7 @@ export default function About(){
                   <Image src={img05} alt="about-img" />
                 </div>
 
-                <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
-                >
-                  <Image src={img02} alt="about-img" />
-                </div>
-
-                <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
-                >
-                  <Image src={img01} alt="about-img" />
-                </div>
+               
               </div>
             </div>
           </Col>
