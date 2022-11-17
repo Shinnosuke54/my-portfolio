@@ -60,7 +60,7 @@ export default function Header(){
           {/* ======== navigation logo ======== */}
           <div className={`${classes.logo}`}>
             <h1>
-              <span>Boar</span> Consulting Group
+              <span>Shinnosuke</span> Ino
             </h1>
           </div>
 

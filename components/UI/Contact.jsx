@@ -12,9 +12,9 @@ export default function Contact(){
         <Row>
           <Col lg="6" md="6">
             <SectionSubtitle subtitle="<Contact />" />
-            <h3 className="mt-4 mb-4">Contact us!</h3>
+            <h3 className="mt-4 mb-4">Contact me!</h3>
             <p>
-              まずはご相談からでも承ります。ウェブ3のプロである私たちにお任せください。ご連絡を心よりお待ちしております。
+              Feel free to ask me anything! More than welcome for a quick chat or a job offer 😃
             </p>
 
             <ul className={`${classes.contact__info__list}`}>
@@ -28,21 +28,24 @@ export default function Contact(){
                 <span>
                   <i className="ri-mail-line"></i>
                 </span>
-                <p>boarconsulting.com</p>
+                <p>shinnosuke.j.ino@gmail.com</p>
               </li>
               <li className={`${classes.info__item}`}>
                 <span>
                   <i className="ri-phone-line"></i>
                 </span>
-                <p>000-0000-0000</p>
+                <p>09085163813</p>
               </li>
             </ul>
 
             <div className={`${classes.social__links}`}>
-              <Link href="/">
+              <Link href="https://github.com/Shinnosuke54">
+                <i className="ri-github-line"></i>
+              </Link>
+              <Link href="https://www.linkedin.com/in/shinnosuke-ino/">
                 <i className="ri-linkedin-line"></i>
               </Link>
-              <Link href="/">
+              <Link href="https://www.instagram.com/keiomlax/">
                 <i className="ri-instagram-line"></i>
               </Link>
             </div>

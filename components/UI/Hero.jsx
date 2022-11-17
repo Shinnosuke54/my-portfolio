@@ -3,7 +3,7 @@ import SectionSubtitle from "./SectionSubtitle";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
 import Link from "next/link";
-import heroImg from "../../public/images/okami6.png";
+import heroImg from "../../public/images/hero.jpg";
 import classes from "../../styles/hero.module.css";
 
 export default function Hero(){
@@ -15,19 +15,23 @@ export default function Hero(){
           <Col lg="6" md="6">
             <div className={`${classes.hero__content}`}>
               <SectionSubtitle subtitle="<Hero />" />
-              <h2 className="mt-3 mb-3">Boar Consulting Group</h2>
-              <h5 className="mb-4">Web3 Consulting Firm</h5>
+              <h2 className="mt-3 mb-3">I&apos;m Shinnosuke Ino</h2>
+              <h5 className="mb-4">Keio University Student</h5>
               <p>
-                私たちは未来を創造することをパーパスとして掲げています。
+                I&apos;m a student of Keio University, Faculty of Environment and Information Studies, Class of 2024.
                
               </p>
               <div className="mt-5">
               <Link href="#contact">
                 <button className="primary__btn">
-                  Contact Us
+                  Hire me
                 </button>
                 </Link>
-                
+                <Link href="/CV">
+                <button className="secondary__btn">
+                  Check CV
+                </button>
+                </Link>
               </div>
             </div>
           </Col>
