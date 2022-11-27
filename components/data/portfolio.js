@@ -5,7 +5,7 @@ const portfolio = [
       img: "/images/portfolio.png",
       category: "Web App",
       keyword: ["Website", "React", "Next.js"],
-      liveUrl: "#",
+      liveUrl: "https://shinnosuke-ino-portfolio.vercel.app/",
     },
   
     {
