@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <Fragment>
       <Head>
-        <title>Boar Consulting Group</title>
+        <title>Shinnosuke Ino&apos;s Portfolio</title>
       </Head>
       <Hero />
       <Services />
